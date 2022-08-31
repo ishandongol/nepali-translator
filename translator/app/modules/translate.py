@@ -2,7 +2,7 @@ import sentencepiece
 from sacremoses import MosesDetokenizer, MosesTokenizer
 import sys, os
 
-sys.path.extend(["app/modules/indic_nlp_library/src",]) # coming all the way from app.py
+sys.path.extend(["app/modules/indic_nlp_library",]) # coming all the way from app.py
 from indicnlp.tokenize import indic_tokenize, indic_detokenize
 from indicnlp.normalize.indic_normalize import IndicNormalizerFactory
 
