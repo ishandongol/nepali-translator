@@ -174,6 +174,6 @@ class Generator():
                 return hypo_str
 
 if __name__ == '__main__':
-    gen = Generator("../ne_en_bpe20000/", "../models/ne-en.pt")
+    gen = Generator("app/ne_en_bpe20000/", "app/models/ne-en.pt")
 
     print(gen.generate("▁यस ▁धारा ▁सं बद्ध ▁नाटक हरूमा ▁कथ ्य ▁र ▁शि ल्प ▁दुबै को ▁नयाँ ▁प्रया े ग ▁पाइन्छ ▁।"))
